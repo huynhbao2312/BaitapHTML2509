@@ -1,0 +1,68 @@
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background:#f7f7f7;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.frame {
+  width: 900px;
+  border: 3px solid #9e9e9e;
+  background: #ffffff;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #1f6d1f;
+  font-size: 30px;
+  text-align: center;
+  margin: 6px 0 8px 0;
+}
+
+.ycs a { color: #0d4fd0; font-weight: 700; text-decoration: underline; }
+
+.desc { font-weight: 600; margin-bottom: 8px; }
+
+.pink-bar {
+  background: #f6cfe3;
+  height: 38px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin-bottom: 12px;
+}
+.pink-bar .mom {
+  color: #d14b86;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+.yellow-box {
+  background: #f1e79b;
+  padding: 36px 24px;
+  text-align: center;
+  min-height: 420px;
+  box-sizing: border-box;
+}
+
+
+.poem .block { margin: 8px 0; font-size: 20px; font-weight:600; font-style: italic; }
+.poem .blue { color:#063a9a; }
+.poem .red  { color:#c04a7a; font-style: italic; }
+.poem .green{ color:#11621a; font-weight:700; font-style: normal; }
+
+
+.sep {
+  width:140px;
+  height:2px;
+  background: rgba(0,0,0,0.15);
+  margin: 18px auto;
+}
+
+
+@media (max-width: 940px) {
+  .frame { width: 95%; }
+}
