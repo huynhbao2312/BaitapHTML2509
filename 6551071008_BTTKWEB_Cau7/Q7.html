@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Q7</title>
+  <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+  <div class="khung-dang-nhap">
+    <h2 class="tieu-de">Đăng nhập</h2>
+    <form id="form-dangnhap">
+      <table class="bang-dang-nhap">
+        <tr>
+          <td>Mã người dùng:</td>
+          <td><input type="text" id="nguoidung" placeholder="Nhập tên..."></td>
+        </tr>
+        <tr>
+          <td>Mật khẩu:</td>
+          <td><input type="password" id="matkhau" placeholder="Nhập mật khẩu..."></td>
+        </tr>
+        <tr>
+          <td colspan="2" class="can-giua">
+            <button type="submit">Đồng ý</button>
+          </td>
+        </tr>
+        <!-- Dòng cuối hiển thị giống người dùng -->
+        <tr>
+          <td colspan="2" class="can-giua">
+            <p id="hienthi"></p>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("form-dangnhap");
+    const nguoidung = document.getElementById("nguoidung");
+    const hienthi = document.getElementById("hienthi");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault(); // chặn reload trang
+      hienthi.textContent = nguoidung.value; // hiện giá trị sau khi bấm nút
+    });
+  </script>
+</body>
+</html>

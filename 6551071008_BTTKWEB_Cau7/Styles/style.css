@@ -1,0 +1,39 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.khung-dang-nhap {
+  width: 450px;
+  margin: 50px auto;
+  border: 2px solid #801f1f;
+  background-color: #edf8fb;
+  padding: 10px;
+}
+
+.tieu-de {
+  text-align: center;
+  color: rgb(147, 35, 35);
+}
+
+.bang-dang-nhap {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bang-dang-nhap td {
+  padding: 8px;
+  border: 1px solid #8f2626;
+}
+
+.can-giua {
+  text-align: center;
+}
+
+button {
+  padding: 5px 15px;
+}
+#hienthi {
+  color: rgb(3, 3, 204);
+  text-decoration: underline;
+}
